@@ -1,4 +1,4 @@
-.answitch {
+#answitch {
 	width: 200px;
 	height: 100px;
 	background-color: white;
@@ -6,7 +6,7 @@
 	overflow: auto;
 }
 
-.answitch .circle {
+#answitch .circle {
 	width: 45%;
 	height: 90%;
 	background-color: #F3E5D3;
@@ -22,7 +22,7 @@
 			transition: all .5s;
 }
 
-.answitch.checked .circle {
+#answitch.checked .circle {
 	margin-left: 50%;
 	background-color: #7E86F9;
 	box-shadow: 0px 3px 5px rgba(123,134,249,0.5);

@@ -2,7 +2,7 @@
 This is a simple web component - switch.  
 I implement Andrew's [Yet another toggle animation](https://dribbble.com/shots/2309834-Yet-another-toggle-animation)
 
-__DEMO__  
+__Implementataion DEMO__  
 <http://github.eddiewen.me/Implementation/Buttons/Andrew/>
 
 ----
@@ -10,7 +10,7 @@ __DEMO__
 #### Usage
 ~~~html
 <!-- HTML -->
-<div class="answitch">
+<div id="answitch">
 	<div class="circle">
 		<div class="an-line an-left"></div>
 		<div class="an-line an-right"></div>
@@ -19,11 +19,10 @@ __DEMO__
 ~~~
 And you need to include `AnSwitch.css` file. I set the width and height to 2/1(200px/100px). You could set .answitch's width and height with any value, but just keep the radio.
 
-#### Action
 ~~~javascript
-<!-- with jQuery -->
+// with jQuery
 $('.circle').on( 'click', function(){
-	$('.answitch').toggleClass('checked');
+	$('#answitch').toggleClass('checked');
 });
 ~~~
 Use your way to add/remove classname - `checked` on `.answitch`.
