@@ -25,7 +25,7 @@ $('.circle').on( 'click', function(){
 	$('#answitch').toggleClass('checked');
 });
 ~~~
-Use your way to add/remove classname - `checked` on `.answitch`.
+Use your way to add/remove classname - `checked` on `#answitch`.
 
 ----
 Here is Pavel Mazurin's [PMZSwitch](https://github.com/kovpas/PMZSwitch) in Swift
