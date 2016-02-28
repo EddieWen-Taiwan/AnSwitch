@@ -1,6 +1,7 @@
 ## AnSwitch
 This is a simple web component - switch.  
 I implement Andrew's [Yet another toggle animation](https://dribbble.com/shots/2309834-Yet-another-toggle-animation)
+![switch](switch.gif)
 
 __Implementataion DEMO__  
 <http://github.eddiewen.me/Implementation/Buttons/Andrew/>
