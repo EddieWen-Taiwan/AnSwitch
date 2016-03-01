@@ -12,21 +12,18 @@ __Implementataion DEMO__
 ~~~html
 <!-- HTML -->
 <div id="answitch">
-	<div class="circle">
-		<div class="an-line an-left"></div>
-		<div class="an-line an-right"></div>
-	</div>
+	<div class="circle"></div>
 </div>
 ~~~
-And you need to include `AnSwitch.css` file. I set the width and height to 2/1(200px/100px). You could set .answitch's width and height with any value, but just keep the radio.
+And you need to include `AnSwitch.min.css` file. I set the width and height to 2/1(200px/100px). You could set `#answitch`'s width and height with any value, but keep the radio.
 
 ~~~javascript
 // with jQuery
-$('.circle').on( 'click', function(){
+$('.circle').on( 'click', function() {
 	$('#answitch').toggleClass('checked');
 });
 ~~~
-Use your way to add/remove classname - `checked` on `#answitch`.
+Use your way to add/remove class - `checked` on `#answitch`.
 
 ----
 Here is Pavel Mazurin's [PMZSwitch](https://github.com/kovpas/PMZSwitch) in Swift
