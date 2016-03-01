@@ -28,7 +28,9 @@
 	box-shadow: 0px 3px 5px rgba(123,134,249,0.5);
 }
 
-.an-line {
+#answitch .circle:before,
+#answitch .circle:after {
+	content: '';
 	width: 50%;
 	height: 5%;
 	min-height: 2px;
@@ -44,19 +46,19 @@
 			transition: all .5s;
 }
 
-.an-left {
+#answitch .circle:before {
 	-webkit-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 			transform: rotate(45deg);
 }
 
-.an-right {
+#answitch .circle:after {
 	-webkit-transform: rotate(135deg);
 		-ms-transform: rotate(135deg);
 			transform: rotate(135deg);
 }
 
-.checked .an-left {
+#answitch.checked .circle:before {
 	width: 30%;
 	top: 60%;
 	left: 15%;
@@ -65,7 +67,7 @@
 			transform: rotate(225deg);
 }
 
-.checked .an-right {
+#answitch.checked .circle:after {
 	width: 60%;
 	top: 50%;
 	left: 30%;
