@@ -3,7 +3,8 @@
 	height: 100px;
 	background-color: white;
 	border-radius: 999px;
-	overflow: auto;
+	box-shadow: 0px 0px 0px 0.3rem white;
+	overflow: visible;
 }
 
 #answitch .circle {
