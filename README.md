@@ -25,5 +25,13 @@ $('.circle').on( 'click', function() {
 ~~~
 Use your way to add/remove class - `checked` on `#answitch`.
 
+If you want a larger switch area, just change the `box-shadow` value.
+
+~~~css
+#answitch {
+	box-shadow: 0px 0px 0px 0.3rem white;
+}
+~~~
+
 ----
 Here is Pavel Mazurin's [PMZSwitch](https://github.com/kovpas/PMZSwitch) in Swift
