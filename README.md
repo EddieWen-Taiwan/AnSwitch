@@ -4,7 +4,7 @@ I implement Andrew's [Yet another toggle animation](https://dribbble.com/shots/2
 ![switch](switch.gif)
 
 __Implementataion DEMO__  
-<http://github.eddiewen.me/Implementation/Button/Andrew/>
+<http://github.eddiewen.me/DailyWeb/Button/Andrew/>
 
 ----
 
