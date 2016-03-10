@@ -3,16 +3,16 @@
 	height: 100px;
 	background-color: white;
 	border-radius: 999px;
-	overflow: auto;
+	box-shadow: 0px 0px 0px 0.3rem white;
+	overflow: visible;
 }
 
 #answitch .circle {
-	width: 45%;
-	height: 90%;
+	width: 50%;
+	height: 100%;
 	background-color: #F3E5D3;
 	border-radius: 999px;
-	margin-top: 2.5%;
-	margin-left: 5%;
+	margin-left: 0%;
 	cursor: pointer;
 	position: relative;
 
